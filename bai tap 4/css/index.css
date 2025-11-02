@@ -1,0 +1,149 @@
+.header
+{
+    max-width: 90%;
+    margin: auto;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+}
+
+nav ul li 
+{
+    list-style: none;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-header
+{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.header-phai
+{
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+}
+
+.search input
+{
+    width: 300px;
+    border-radius: 30px;
+    line-height: 30px;
+    border: none;
+    background-color: #E9E9EA;
+    padding-left: 30px;
+}
+.input-search
+{
+    position: relative;
+}
+
+.icon-left
+{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon-right
+{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li a
+{
+    
+    color: black;
+    font-family: Arial;
+}
+
+.icon-top-menu ul li
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-top-menu ul
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-bot-menu ul
+{
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+p
+{
+    font-size: large;
+    
+}
+
+.content
+{
+    max-width: 90%;
+    margin: auto;
+}
+
+.book-posts
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.book
+{
+    width: 32%;
+
+   
+}
+img
+{
+    width: 80%;
+}
+
+.footer
+{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+
+.footer nav ul 
+{
+      display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
